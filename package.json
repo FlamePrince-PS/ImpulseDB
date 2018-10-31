@@ -1,6 +1,6 @@
 {
   "name": "impulsedb",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Fast and flexible JSON database.",
   "license": "MIT",
   "main": "src/index.js",
@@ -36,7 +36,7 @@
     "steno": "^0.4.4"
   },
   "devDependencies": {
-    "eslint": "^2.5.0",
+    "eslint": "^5.8.0",
     "mocha": "^5.2.0",
     "object-assign": "^4.1.1",
     "rimraf": "^2.6.2"
