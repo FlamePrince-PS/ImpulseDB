@@ -1,6 +1,6 @@
 {
   "name": "impulsedb",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "Fast and flexible JSON database.",
   "license": "MIT",
   "main": "src/index.js",
