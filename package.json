@@ -1,0 +1,44 @@
+{
+  "name": "impulsedb",
+  "version": "1.0.2",
+  "description": "Fast and flexible JSON database.",
+  "license": "MIT",
+  "main": "src/index.js",
+  "author": {
+    "name": "Musaddik Temkar",
+    "email": "flameprince339@gmail.com",
+    "url": "github.com/FlamePrince-PS"
+  },
+  "scripts": {
+    "test": "eslint *.js src/**/*.js test/*.js && mocha",
+    "tester": "mocha"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "files": [
+    "src"
+  ],
+  "keywords": [
+    "database",
+    "json",
+    "file",
+    "mongo",
+    "extendable",
+    "flexible"
+  ],
+  "dependencies": {
+    "deasync": "^0.1.13",
+    "graceful-fs": "^4.1.11",
+    "json-parse-helpfulerror": "^1.0.3",
+    "lodash": "^4.17.11",
+    "mongodb": "^3.1.8",
+    "steno": "^0.4.4"
+  },
+  "devDependencies": {
+    "eslint": "^2.5.0",
+    "mocha": "^5.2.0",
+    "object-assign": "^4.1.1",
+    "rimraf": "^2.6.2"
+  }
+}
